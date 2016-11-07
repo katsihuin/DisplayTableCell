@@ -1,0 +1,51 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+/* completa tu codigo aqui */
+
+nav,ul{
+    display: table;
+    width: 90px;
+    height: 90px;
+}
+li {
+    width: 90px;
+    height: 90px;
+    list-style: none;
+}
+a,span{
+    display: table-cell;
+    width: 90px;
+    height: 90px;  
+    text-decoration: none;
+    vertical-align: middle;
+    background: transparent;
+    color: inherit;
+}
+a:hover {
+    padding-left: 90px;   
+}
+
+a:hover span {
+    background: black;
+    color: inherit;   
+}
+
+li:nth-of-type(1){background: #6495ED;color:#6495ED;}
+li:nth-child(2){background: #00FFFF;color: #00FFFF;}
+li:nth-child(3){background:#FF7F50 ;color:#FF7F50;}
+li:nth-child(4){background:#F08080;color:#F08080;}
